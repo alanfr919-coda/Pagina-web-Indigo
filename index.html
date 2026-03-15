@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="src/assets/css/header.css">
+    <title>Indigo | La esencia de la noche</title>
+</head>
+
+<body>
+
+    <div class="main-header">
+        <nav>
+            <div class="logo-container"><a href="">Indigo</a></div>
+            <div class="nav-items">
+                <ul>
+                    <li><a href="#">Historía</a></li>
+                    <li><a href="#">Coctelería</a></li>
+                    <li><a href="#">Comida</a></li>
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="#">Clientes</a></li>
+                    <li><a href="#">Reservar</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="button-nav-responsive">
+                <button id="btn-active-menu"><span><i class="bi bi-list"></i></span></button>
+            </div>
+        </nav>
+
+        <div class="overlay-main-header">
+            <div>
+                <h1>La esencia de la noche en tu vaso</h1>
+                <p>
+                    Cocteles artesanales, atmósfera íntima y momentos que perduran. Entra. Respira. Disfruta.
+                </p>
+                <a href=""><span><i class="bi bi-chevron-double-down"></i></span></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="items-nav-movil" id="nav-movil">
+        <div>
+            <ul>
+                <li><a class="item" href="#">Historía</a></li>
+                <li><a class="item" href="#">Coctelería</a></li>
+                <li><a class="item" href="#">Comida</a></li>
+                <li><a class="item" href="#">Eventos</a></li>
+                <li><a class="item" href="#">Clientes</a></li>
+                <li><a class="item" href="#">Reservar</a></li>
+                <li><a class="item" href="#">Contacto</a></li>
+            </ul>
+
+            <button id="btn-close-nav"><span><i class="bi bi-x-lg"></i></span></button>
+        </div>
+    </div>
+
+    <script src="src/assets/js/active-menu.js"></script>
+</body>
+
+</html>

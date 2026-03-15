@@ -1,0 +1,23 @@
+{
+  "name": "10081-local-indigo",
+  "version": "1.0.1",
+  "description": "pagina web para bar nocturno en Html, Css y Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanfr919-coda/Pagina-web-Indigo.git"
+  },
+  "author": "Alan Figueroa Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanfr919-coda/Pagina-web-Indigo/issues"
+  },
+  "homepage": "https://github.com/alanfr919-coda/Pagina-web-Indigo#readme",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.8"
+  }
+}
