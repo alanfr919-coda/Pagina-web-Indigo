@@ -129,6 +129,7 @@
     overflow: hidden;
     transition: var(--transition-default);
     z-index: 101;
+    position: fixed;
 }
 
 #nav-movil > div {
