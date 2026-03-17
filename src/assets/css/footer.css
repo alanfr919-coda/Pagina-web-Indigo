@@ -1,0 +1,43 @@
+.footer-section {
+    width: 100%;
+    display: block;
+    margin-top: 5px auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.links-social-networks {
+    width: 100%;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.links-social-networks > h3 {
+    font-family: var(--font-title);
+    font-size: 40px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.links-social-networks > a {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: var(--dark-color);
+    transition: var(--transition-default);
+    cursor: pointer;
+}
+
+.links-social-networks > a:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 991px) {
+    .links-social-networks > h3 {
+        font-size: 30px;
+    }
+}
